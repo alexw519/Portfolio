@@ -7,9 +7,13 @@ h1
 
     /*width: 23%;
     margin-left: 20px;
-    padding: 10px 10px 10px 15px;*/
+    padding: 10px 10px 10px 15px;
     height: 40px;
-    width: 300px;
+    width: 300px;*/
+    margin: 0;
+    padding: 20px;
+    width: 33%;
+    height: 10%;
 }
 
 /*About Me Header*/
@@ -20,12 +24,26 @@ h2
 
 body
 {
+    position: relative;
+    margin: 0 auto;
+}
+.body2
+{
     width: 960px;
+    position: relative;
+    margin: 0 auto;
 }
 
 /*Links Header*/
-h3
+.links
 {
+    float: left;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: right;
+    width: 100%;
+    height: 10%;
 
 }
 
@@ -45,6 +63,8 @@ p
 .portfolioCaption
 {
     color: #777777;
+    float: left;
+    background-color: #4aaaa5;
 }
 
 /*Portfolio Image*/
