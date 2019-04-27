@@ -4,16 +4,15 @@ h1
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     background-color: #4aaaa5;
-    position: absolute;
-    top: 0;
-    left: 0;
+    
+ 
     margin: 0 auto;
     width: 33%;
-    height: 40px;
-    padding-top: 30px;
-    padding-bottom: 10px;
-    z-index: 2;
-    text-align: center;
+margin-top:33px;
+padding-top:20px;
+padding-bottom: 10px;
+padding-left: 10px;
+     float: left;
 }
 
 /*Page Info Header*/
@@ -30,40 +29,47 @@ body
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
+.container{
+    margin: 0 auto;
+    width: 960px;
+}
 /*Settings fro 960px body*/
 .mainBody
 {
+    
     width: 960px;
     position: relative;
     margin: 0 auto;
     background-color:#ffffff;
-    padding: 100px 20px;
+    padding: 20px 20px 50px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    top:10px;
 }
-
+header{
+    background-color:#ffffff;
+    
+    border-bottom: 2px groove #777777;
+}
 /*Links Header*/
 .links
 {
     background-color: #ffffff;
-    float: left;
-    position: absolute;
-    top: 0px;
-    padding-left: 60%;
-    padding-top: 3%;
-    font-size: 21px;
-    width: 100%;
-    height: 39.5px;
-    z-index: 1;
+    float: right;
+ 
+    margin-top: 20px;
+ 
+    font-size: 22px;
+    
+ 
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    border-bottom: 2px groove #777777;
 }
 
 /*Removing underlines for links*/
 a
 {
     text-decoration: none;
+    float:right;
 }
 
 /*Change color when hovering over an image.*/
@@ -154,4 +160,28 @@ p
 #submitButton:hover
 {
     background-color: orange;
+}
+
+h4
+{
+    float: left;
+}
+
+li
+{
+    padding-top: 40px;
+    padding-right:50px;
+    float: right;
+    text-decoration: none;
+}
+
+.test
+{
+    position: relative;
+    background-color: #ffffff;
+}
+
+.clearfix
+{
+    clear: both;
 }
