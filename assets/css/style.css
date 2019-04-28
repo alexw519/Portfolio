@@ -3,15 +3,13 @@ h1
 {
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5;
-    
- 
+    background-color: #4aaaa5; 
     margin: 0 auto;
     width: 33%;
-margin-top:33px;
-padding-top:20px;
-padding-bottom: 10px;
-padding-left: 10px;
+    margin-top:33px;
+    padding-top:20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
      float: left;
 }
 
@@ -29,14 +27,17 @@ body
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-.container{
+
+/*Settings for the header container*/
+.container
+{
     margin: 0 auto;
     width: 960px;
 }
+
 /*Settings fro 960px body*/
 .mainBody
-{
-    
+{ 
     width: 960px;
     position: relative;
     margin: 0 auto;
@@ -45,9 +46,11 @@ body
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     top:10px;
 }
-header{
-    background-color:#ffffff;
-    
+
+/*Settings for the header element*/
+header
+{
+    background-color:#ffffff;  
     border-bottom: 2px groove #777777;
 }
 /*Links Header*/
@@ -55,12 +58,8 @@ header{
 {
     background-color: #ffffff;
     float: right;
- 
     margin-top: 20px;
- 
     font-size: 22px;
-    
- 
     color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -162,25 +161,7 @@ p
     background-color: orange;
 }
 
-h4
-{
-    float: left;
-}
-
-li
-{
-    padding-top: 40px;
-    padding-right:50px;
-    float: right;
-    text-decoration: none;
-}
-
-.test
-{
-    position: relative;
-    background-color: #ffffff;
-}
-
+/*Clearfix Class*/
 .clearfix
 {
     clear: both;
