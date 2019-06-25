@@ -1,168 +1,93 @@
-/*Name Header*/
-h1
-{
-    color: #ffffff;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    background-color: #4aaaa5; 
-    margin: 0 auto;
-    width: 33%;
-    margin-top:33px;
-    padding-top:20px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-     float: left;
-}
-
-/*Page Info Header*/
-h2
-{
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-}
-
-/*Overall Body Settings*/
 body
 {
-    position: relative;
-    margin: 0 auto;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-/*Settings for the header container*/
-.container
-{
-    margin: 0 auto;
-    width: 960px;
-}
-
-/*Settings fro 960px body*/
-.mainBody
-{ 
-    width: 960px;
-    position: relative;
-    margin: 0 auto;
-    background-color:#ffffff;
-    padding: 20px 20px 50px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    top:10px;
-}
-
-/*Settings for the header element*/
-header
-{
-    background-color:#ffffff;  
-    border-bottom: 2px groove #777777;
-}
-/*Links Header*/
-.links
-{
-    background-color: #ffffff;
-    float: right;
-    margin-top: 20px;
-    font-size: 22px;
-    color: #777777;
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-/*Removing underlines for links*/
-a
+img
 {
-    text-decoration: none;
-    float:right;
+    height: 200px;
+    width: 200px;
 }
 
-/*Change color when hovering over an image.*/
-a:hover
-{
-    color: orange;
-}
-
-/*About Me Paragraph*/
 p
 {
-    color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 10px 0px;
+    line-height: 24px;
 }
 
-/*Portfolio Table*/
-.portfolioTable
+a
+{}
+
+#userName
 {
-    position: relative;
+    /* width: 25%; */
 }
 
-/*Portfolio Caption*/
+.navBar
+{
+    background: red;
+}
+
+.nav-item
+{}
+
+.container
+{
+    width: 960px;
+    margin-top: 20px;
+    background-color: white;
+}
+
 .portfolioCaption
+{}
+
+.fixed-bottom
 {
-    position: relative;
-    top: -60px;
-    padding: 10px;
-    width: 380px;
     text-align: center;
+    background-color: gray;
     font-size: 20px;
-    color: #ffffff;
-    float: left;
-    background-color: #4aaaa5;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-/*When hovering over a caption, change the background color.*/
-.portfolioCaption:hover
+#about
+{}
+
+#imagesDiv
 {
-    background-color: orange;
+    text-align: center;
+    float: left;
 }
 
-/*Portfolio Image*/
+#aboutText
+{
+    float: left;
+}
+
 #selfImage
 {
     height: 200px;
     width: 200px;
-    float: left;
     margin: 20px;
 }
 
-/*Adjusting the spacing for the links.*/
-.middleLink
+#pdfIcon
 {
-    padding: 0px 15px;
+    height: 140px;
+    width: 120px;
 }
 
-/*Settings for the fixed border.*/
-.footerBackground
-{
-    float: left;
-    background: #777777;
-    position: fixed;
-    bottom: 0px;
-    z-index: 7;
-    width: 100%;
-    border-top: 8px solid #4aaaa5;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
+#contact
+{}
 
-/*Formatting for button, aesthetic only. Doesn't do anything.*/
 #submitButton
+{}
+
+#portfolio
+{}
+
+#resume
 {
-    background: #4aaaa5;
-    border: none;
-    text-align: center;
     margin-top: 10px;
-    padding: 20px 40px;
-    color: #ffffff;
-    font-size: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-/*Changes the color of the submit button when hovering.*/
-#submitButton:hover
-{
-    background-color: orange;
-}
-
-/*Clearfix Class*/
-.clearfix
-{
-    clear: both;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
 }
