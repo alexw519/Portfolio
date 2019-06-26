@@ -9,14 +9,16 @@
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body background="./assets/images/country-quilt.png">
+<body background="./assets/images/what-the-hex-dark.png">
+
+    <!-- Nav Bar Containing Clickable Words -->
     <div class="navBar">
         <div class="container">
             <div class="row">
-                <div class="col-sm-12">
-                    <h2>Alexander Wilson</h2>
+                <div class="col-sm-12 navBack">
+                    <h1>Alexander Wilson</h1><hr>
                 </div>
-                <div class="col-sm-12">
+                <div class="col-sm-12 navBack">
                     <ul class="nav justify-content-center">
                         <li class="nav-item" id="aboutClick">About Me</li>
                         <li class="nav-item" id="contactClick"> | Contact | </li>
@@ -27,23 +29,23 @@
         </div>
     </div>
 
-
+    <!-- About Me Div -->
     <div class="container" id="about">
         <div class="row">
             <div class="col-sm-12">
-                <h3>About Me</h3>
+                <h2>About Me</h2>
             </div>
         </div>
         <hr>
         <div class="row">
             <div class="col-md-4" id = "imagesDiv">
-                <img src="./assets/images/temp.jpg" class="img-responsive" id="selfImage">
+                <img src="./assets/images/temp.jpg" class="img-fluid rounded" id="selfImage">
                 <div id="resume">Resume</div>
                     <a href="./assets/pdf/Résumé 2019.pdf">
                         <img src="./assets/images/icon_PDF.png" id="pdfIcon">
                     </a>
             </div>
-            <div class="col-md-8" id="aboutText">
+            <div class="col-md-7" id="aboutText">
                 <p>    
                     My name is Alexander Wilson. I am 24 years old and I am currently employed at Northwestern University. There, I am a telecom techninician. So I mostly deal with physically setting up the phone and internet connection throughout the campus. After I am done with this boot camp, I plan to look for a job developing software or websites. I graduated at Northern Illinois University in DeKalb, Illinois. There I recieved a bachelor's degree in computer science with a minor in Japanese Language. Although, I always need to practice more as I am not fluent.
                 </p>
@@ -54,10 +56,12 @@
         </div>
     </div>
 
+    <!-- Contact Div -->
     <div class="container" id="contact">
+        <!-- Form To Get Contact Information For The User -->
         <form action="">
             <div class="form-group">
-            <legend>Contact Me</legend>
+            <h2>Contact Me</h2>
             <hr>
             <p>Name</p>
             <input type="text" class="form-control" id="userName" placeholder="Name">
@@ -65,51 +69,63 @@
             <input type="email" class="form-control" id="userEmail" placeholder="E-mail">
             <p>Message</p>
             <textarea class="form-control" rows="3" id="userMessage" placeholder="Message"></textarea>
-            <input type="submit" id="sumbmitButton">
+            <input type="submit" class="btn btn-outline-dark" id="submitButton">
             </div>
         </form>
     </div>
+
+    <!-- Portfolio Div -->
     <div class="container" id="portfolio">
         <div class="row">
             <div class="col-sm-12">
-                <h3>Portfolio</h3>
+                <h2>Portfolio</h2>
                 <hr>
             </div>
-            <div class="col-sm-4">
-                <a href="https://alexw519.github.io/Word-Guess-Game/">
-                    <img src="./assets/images/batmanHangman.jpg" class="placeHolderImage">
+
+            <!--Cards For Each Project-->
+            <div class="card col-md-4 border border-white" style="width: 18rem;">
+                    <a href="https://alexw519.github.io/Word-Guess-Game/">
+                <img class="card-img-top" src="./assets/images/batmanHangman.jpg" alt="Card image cap">
                 </a>
-                <p class="portfolioCaption">Word Guess</p>
+                <div class="card-body">
+                    <h3>Batman Themed Word Guess</h3>
+                    <p class="card-text">Click Image Or View <a href="https://github.com/alexw519/Word-Guess-Game">Github</a></p>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <a href="https://alexw519.github.io/Unit-4-Game/">
-                    <img src="assets/images/starWarsRPG.jpg" class="placeHolderImage">
+
+            <div class="card col-md-4 border border-white" style="width: 18rem;">
+                    <a href="https://alexw519.github.io/Unit-4-Game/">
+                <img class="card-img-top" src="assets/images/starWarsRPG.jpg" alt="Card image cap">
                 </a>
-                <p class="portfolioCaption">Star Wars RPG Game</p>
+                <div class="card-body">
+                    <h3>Star Wars RPG</h3>
+                    <p class="card-text">Click Image Or View <a href="https://github.com/alexw519/Word-Guess-Game">Github</a></p>
+                </div>
             </div>
-            <!-- <div class="col-sm-6"></div> -->
-            <div class="col-sm-4">
-                <a href="https://alexw519.github.io/TriviaGame/">
-                    <img src="./assets/images/trivia.jpg" class="placeHolderImage">
-                    <p class="portfolioCaption">Trivia Game</p>
+
+            <div class="card col-md-4 border border-white" style="width: 18rem;">
+                    <a href="https://alexw519.github.io/TriviaGame/">
+                <img class="card-img-top" src="./assets/images/trivia.jpg" alt="Card image cap">
                 </a>
+                <div class="card-body">
+                    <h3>Trvia Game</h3>
+                    <p class="card-text">Click Image Or View <a href="https://github.com/alexw519/TriviaGame">Github</a></p>
+                </div>
             </div>
-            <div class="col-sm-4">
-                <a href="https://alexw519.github.io/GifTastic/">
-                    <img src="./assets/images/placeholder4.jpg" class="placeHolderImage">
-                    <p class="portfolioCaption">GifTastic</p>
+
+            <div class="card col-md-4 border border-white" style="width: 18rem;">
+                    <a href="https://alexw519.github.io/GifTastic/">
+                <img class="card-img-top" src="./assets/images/placeholder5.jpg" alt="Card image cap">
                 </a>
+                <div class="card-body">
+                    <h3>GifTastic</h3>
+                    <p class="card-text">Click Image Or View <a href="https://github.com/alexw519/GifTastic">Github</a></p>
+                </div>
             </div>
-            <!-- <div class="col-sm-6"></div> -->
-            <div class="col-sm-4">
-                <img src="./assets/images/placeholder5.jpg" class="placeHolderImage">
-                <p class="portfolioCaption">Rock, Papers, Scissors</p>
-            </div>
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6"></div>
         </div>
     </div>
 
+    <!-- Footer Contianing All Of The Links -->
     <div class="fixed-bottom">
         <a href="https://github.com/alexw519">Github</a> |
         <a href="https://www.linkedin.com/in/alexander-wilson-3b8856101/">LinkedIn</a>
